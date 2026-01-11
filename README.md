@@ -23,11 +23,28 @@ Admin Module
 - View user details
 - View orders
 
-## Technologies
-- PHP
-- HTML
-- CSS
-- JavaScript
-- MYSQL
+## Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: PHP
+Database: MySQL
+Server: XAMPP / Apache
+
+## Project Structure
+UrbanCart/
+│
+├── admin/              # Admin panel files
+├── assets/             # CSS, JS, images
+├── cart/               # Cart & checkout files
+├── user/               # User login & profile
+├── config/             # Database connection
+├── includes/           # Common header/footer
+├── database/           # SQL database file
+│
+├── index.php           # Home page
+├── login.php           # User login
+├── register.php        # User registration
+├── logout.php          # Logout
+├── README.md           # Project documentation
+
 
 🚧 Project under development
