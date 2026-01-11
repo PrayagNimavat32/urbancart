@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Urban Cart (E-Commerce Platform)
 Urban Cart is a web-based E-Commerce Platform developed as a college project.
 It allows users to browse products, manage a shopping cart, and place orders, while admins can manage products and users.
@@ -47,11 +46,6 @@ UrbanCart/
 ├── logout.php          # Logout
 ├── README.md           # Project documentation
 
-=======
-# E-Commerce Platform 
-
-College project for an E-Commerce Platform 
-
 ## Features
 - User login and registration
 - Product browsing
@@ -64,6 +58,4 @@ College project for an E-Commerce Platform
 - CSS
 - JavaScript
 - MYSQL
->>>>>>> afb5b44fab4ddde1970d52a934db3a650be501c3
 
-🚧 Project under development
