@@ -64,5 +64,6 @@ College project for an E-Commerce Platform
 - CSS
 - JavaScript
 - MYSQL
+>>>>>>> afb5b44fab4ddde1970d52a934db3a650be501c3
 
 🚧 Project under development
