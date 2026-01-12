@@ -46,16 +46,4 @@ UrbanCart/
 ├── logout.php          # Logout
 ├── README.md           # Project documentation
 
-## Features
-- User login and registration
-- Product browsing
-- Cart and checkout
-- Admin panel
-
-## Technologies
-- PHP
-- HTML
-- CSS
-- JavaScript
-- MYSQL
 
