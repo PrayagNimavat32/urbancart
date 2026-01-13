@@ -25,3 +25,41 @@ session_start();
 
 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 		<link type="text/css" rel="stylesheet" href="css/accountbtn.css"/>
+
+        <style>
+        #navigation {
+          background: #FF4E50;  
+            background: -webkit-linear-gradient(to right, #F9D423, #FF4E50); 
+            background: linear-gradient(to right, #F9D423, #FF4E50); 
+
+          
+        }
+        #header {
+  
+            background: #780206; 
+            background: -webkit-linear-gradient(to right, #061161, #780206); 
+            background: linear-gradient(to right, #061161, #780206); 
+
+  
+        }
+        #top-header {
+              
+  
+            background: #870000;  
+            background: -webkit-linear-gradient(to right, #190A05, #870000);  
+            background: linear-gradient(to right, #190A05, #870000); 
+
+
+        }
+        #footer {
+            background: #7474BF;  
+            background: -webkit-linear-gradient(to right, #348AC7, #7474BF); 
+            background: linear-gradient(to right, #348AC7, #7474BF); 
+
+
+          color: #1E1F29;
+        }
+        #bottom-footer {
+            background: #7474BF;  
+            background: -webkit-linear-gradient(to right, #348AC7, #7474BF); 
+            background: linear-gradient(to right, #348AC7, #7474BF); 
