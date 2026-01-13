@@ -99,9 +99,7 @@ session_start();
 
     </head>
 	<body>
-		<!-- HEADER -->
 		<header>
-			<!-- TOP HEADER -->
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
@@ -147,17 +145,12 @@ session_start();
 					
 				</div>
 			</div>
-			<!-- /TOP HEADER -->
 			
 			
 
-			<!-- MAIN HEADER -->
 			<div id="header">
-				<!-- container -->
 				<div class="container">
-					<!-- row -->
 					<div class="row">
-						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
@@ -168,9 +161,7 @@ session_start();
 								</a>
 							</div>
 						</div>
-						<!-- /LOGO -->
 
-						<!-- SEARCH BAR -->
 						<div class="col-md-6">
 							<div class="header-search">
 								<form>
@@ -184,12 +175,9 @@ session_start();
 								</form>
 							</div>
 						</div>
-						<!-- /SEARCH BAR -->
 
-						<!-- ACCOUNT -->
 						<div class="col-md-3 clearfix">
 							<div class="header-ctn">
-								<!-- Wishlist -->
 								<div>
 									<a href="https://github.com/PrayagNimavat32">
 										<i class="fa fa-github"></i>
@@ -197,9 +185,7 @@ session_start();
 										
 									</a>
 								</div>
-								<!-- /Wishlist -->
 
-								<!-- Cart -->
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 										<i class="fa fa-shopping-cart"></i>
@@ -219,19 +205,15 @@ session_start();
 									</div>
 										
 									</div>
-								<!-- /Cart -->
 
-								<!-- Menu Toogle -->
 								<div class="menu-toggle">
 									<a href="#">
 										<i class="fa fa-bars"></i>
 										<span>Menu</span>
 									</a>
 								</div>
-								<!-- /Menu Toogle -->
 							</div>
 						</div>
-						<!-- /ACCOUNT -->
 					</div>
 					<!-- row -->
 				</div>
