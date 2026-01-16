@@ -34,4 +34,22 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 
                 setcookie("product_list","",strtotime("-1 day"),"/");
 				echo "cart_login";
+
+
+                exit();
+				
+			}
+			echo "login_success";
+			$BackToMyPage = $_SERVER['HTTP_REFERER'];
+				if(!isset($BackToMyPage)) {
+					header('Location: '.$BackToMyPage);
+					echo"<script type='text/javascript'>
+					
+					</script>";
+				} else {
+					echo "<script> location.href='index.php'; </script>" ;
+				} 
+				
+			
+            exit;
                 
