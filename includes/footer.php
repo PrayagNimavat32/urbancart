@@ -71,8 +71,7 @@
             c++;
               }
         }
-           
-		
+           		
 </script>
         <script type="text/javascript">
 		$('.block2-btn-addcart').each(function(){
