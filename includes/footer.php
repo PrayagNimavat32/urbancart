@@ -26,3 +26,16 @@
 								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Prayag Nimavat</a>
 							</span>
 						</div>
+
+                        <div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categories</h3>
+								<ul class="footer-links">
+									<li><a href="#">Mobiles</a></li>
+									<li><a href="#">Men</a></li>
+									<li><a href="#">Women</a></li>
+									<li><a href="#">Kids</a></li>
+									<li><a href="#">Accessories</a></li>
+								</ul>
+							</div>
+						</div>
