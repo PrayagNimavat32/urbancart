@@ -13,3 +13,25 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 		$_SESSION["uid"] = $row["user_id"];
 		$_SESSION["name"] = $row["first_name"];
 		$ip_add = getenv("REMOTE_ADDR");
+
+
+    if($count == 1){
+		   	
+			if (isset($_COOKIE["product_list"])) {
+				$p_list = stripcslashes($_COOKIE["product_list"]);
+				//here we are decoding stored json product list cookie to normal array
+				$product_list = json_decode($p_list,true);
+				for ($i=0; $i < count($product_list); $i++) { 
+					//After getting user id from database here we are checking user cart item if there is already product is listed or not
+					$verify_cart = "SELECT id FROM cart WHERE user_id = $_SESSION[uid] AND p_id = ".$product_list[$i];
+					$result  = mysqli_query($con,$verify_cart);
+					if(mysqli_num_rows($result) < 1){
+						//if user is adding first time product into cart we will update user_id into database table with valid id
+						$update_cart = "UPDATE cart SET user_id = '$_SESSION[uid]' WHERE ip_add = '$ip_add' AND user_id = -1";
+						mysqli_query($con,$update_cart);
+					}else{
+						//if already that product is available into database table we will delete that record
+						$delete_existing_product = "DELETE FROM cart WHERE user_id = -1 AND ip_add = '$ip_add' AND p_id = ".$product_list[$i];
+						mysqli_query($con,$delete_existing_product);
+					}
+				}
