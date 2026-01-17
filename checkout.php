@@ -30,3 +30,9 @@ include "header.php";
   -ms-flex: 75%; 
   flex: 75%;
 }
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
