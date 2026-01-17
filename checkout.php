@@ -74,3 +74,18 @@ label {
   cursor: pointer;
   font-size: 17px;
 }
+
+.checkout-btn:hover {
+  background-color: #45a049;
+}
+
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
