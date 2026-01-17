@@ -99,3 +99,13 @@ span.price {
   }
 }
 </style>
+
+
+<section class="section">       
+	<div class="container-fluid">
+		<div class="row-checkout">
+		<?php
+		if(isset($_SESSION["uid"])){
+			$sql = "SELECT * FROM user_info WHERE user_id='$_SESSION[uid]'";
+			$query = mysqli_query($con,$sql);
+			$row=mysqli_fetch_array($query);
