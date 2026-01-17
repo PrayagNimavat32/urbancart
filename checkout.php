@@ -252,3 +252,26 @@ span.price {
 						$query = mysqli_query($con,$sql);
 						$row=mysqli_fetch_array($query);
 						$product_id=$row["product_id"];
+                        
+						echo "	
+
+						<tr><td><p>$item_number_</p></td><td><p>$item_name_</p></td><td ><p>$quantity_</p></td><td ><p>$amount_</p></td></tr>";
+						
+						$i++;
+					}
+
+				echo"
+
+				</tbody>
+				</table>
+				<hr>
+				
+				<h3>total<span class='price' style='color:black'><b>$$total</b></span></h3>";
+					
+				}
+				?>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
