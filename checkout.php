@@ -43,3 +43,11 @@ include "header.php";
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
