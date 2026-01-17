@@ -176,3 +176,22 @@ span.price {
 					</div>
 					<label><input type="CHECKBOX" name="q" class="roomselect" value="conform" required> Shipping address same as billing
 					</label>';
+                    $i=1;
+					$total=0;
+					$total_count=$_POST['total_count'];
+					while($i<=$total_count){
+						$item_name_ = $_POST['item_name_'.$i];
+						$amount_ = $_POST['amount_'.$i];
+						$quantity_ = $_POST['quantity_'.$i];
+						$total=$total+$amount_ ;
+						$sql = "SELECT product_id FROM products WHERE product_title='$item_name_'";
+						$query = mysqli_query($con,$sql);
+						$row=mysqli_fetch_array($query);
+						$product_id=$row["product_id"];
+						echo "	
+						<input type='hidden' name='prod_id_$i' value='$product_id'>
+						<input type='hidden' name='prod_price_$i' value='$amount_'>
+						<input type='hidden' name='prod_qty_$i' value='$quantity_'>
+						";
+						$i++;
+					}
