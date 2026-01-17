@@ -195,3 +195,17 @@ span.price {
 						";
 						$i++;
 					}
+                    	
+				echo'	
+				<input type="hidden" name="total_count" value="'.$total_count.'">
+					<input type="hidden" name="total_price" value="'.$total.'">
+					
+					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn">
+				</form>
+				</div>
+			</div>
+			';
+		}else{
+			echo"<script>window.location.href = 'cart.php'</script>";
+		}
+		?>
