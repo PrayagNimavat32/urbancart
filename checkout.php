@@ -36,3 +36,10 @@ include "header.php";
 .col-75 {
   padding: 0 16px;
 }
+
+.container-checkout {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
