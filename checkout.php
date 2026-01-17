@@ -238,3 +238,17 @@ span.price {
 					</thead>
 					<tbody>
 					";
+                    $total=0;
+					while($i<=$total_count){
+						$item_name_ = $_POST['item_name_'.$i];
+						
+						$item_number_ = $_POST['item_number_'.$i];
+						
+						$amount_ = $_POST['amount_'.$i];
+						
+						$quantity_ = $_POST['quantity_'.$i];
+						$total=$total+$amount_ ;
+						$sql = "SELECT product_id FROM products WHERE product_title='$item_name_'";
+						$query = mysqli_query($con,$sql);
+						$row=mysqli_fetch_array($query);
+						$product_id=$row["product_id"];
