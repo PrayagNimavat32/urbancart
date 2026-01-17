@@ -62,3 +62,15 @@ label {
   padding: 7px 0;
   font-size: 24px;
 }
+
+.checkout-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
