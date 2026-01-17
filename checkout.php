@@ -89,3 +89,13 @@ span.price {
   float: right;
   color: grey;
 }
+
+@media (max-width: 800px) {
+  .row-checkout {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
