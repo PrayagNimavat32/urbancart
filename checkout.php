@@ -209,3 +209,32 @@ span.price {
 			echo"<script>window.location.href = 'cart.php'</script>";
 		}
 		?>
+        
+			<div class="col-25">
+				<div class="container-checkout">
+				
+				<?php
+				if (isset($_POST["cmd"])) {
+				
+					$user_id = $_POST['custom'];
+					
+					
+					$i=1;
+					echo
+					"
+					<h4>Cart 
+					<span class='price' style='color:black'>
+					<i class='fa fa-shopping-cart'></i> 
+					<b>$total_count</b>
+					</span>
+				</h4>
+
+					<table class='table table-condensed'>
+					<thead><tr>
+					<th >no</th>
+					<th >product title</th>
+					<th >	qty	</th>
+					<th >	amount</th></tr>
+					</thead>
+					<tbody>
+					";
