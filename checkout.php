@@ -20,3 +20,8 @@ include "header.php";
   -ms-flex: 25%; 
   flex: 25%;
 }
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
