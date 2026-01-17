@@ -51,3 +51,14 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
