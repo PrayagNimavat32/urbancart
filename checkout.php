@@ -25,3 +25,8 @@ include "header.php";
   -ms-flex: 50%; 
   flex: 50%;
 }
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
