@@ -64,4 +64,19 @@ include "activitity.php";
                     <thead class=" text-primary">
                         <tr><th>ID</th><th>Categories</th><th>Count</th>
                     </tr></thead>
-                    <tbody></tbody>
+                    <tbody>
+                        <?php 
+                        $result=mysqli_query($con,"select * from categories")or die ("query 1 incorrect.....");
+                        $i=1;
+                        while(list($cat_id,$cat_title)=mysqli_fetch_array($result))
+                        {	
+                            $sql = "SELECT COUNT(*) AS count_items FROM products WHERE product_cat=$i";
+                            $query = mysqli_query($con,$sql);
+                            $row = mysqli_fetch_array($query);
+                            $count=$row["count_items"];
+                            $i++;
+                        echo "<tr><td>$cat_id</td><td>$cat_title</td><td>$count</td>
+
+                        </tr>";
+                        }
+                        ?>
