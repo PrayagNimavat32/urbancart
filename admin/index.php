@@ -52,3 +52,16 @@ include "activitity.php";
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-6">
+            <div class="card ">
+              <div class="card-header card-header-primary">
+                <h4 class="card-title"> Categories List</h4>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive ps">
+                  <table class="table table-hover tablesorter " id="">
+                    <thead class=" text-primary">
+                        <tr><th>ID</th><th>Categories</th><th>Count</th>
+                    </tr></thead>
+                    <tbody></tbody>
