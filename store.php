@@ -56,3 +56,13 @@ include 'header.php';
 								</div>
 							</div>
 						</div>
+                        <div id="get_brand">
+				        </div>
+
+						<div class="aside">
+							<h3 class="aside-title">Top selling</h3>
+							<div id="get_product_home">
+
+							</div>
+						</div>
+					</div>
