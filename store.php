@@ -14,3 +14,8 @@ include 'header.php';
             global.location.href += "!";
         }, 50);
     };	
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
