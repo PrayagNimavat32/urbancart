@@ -90,3 +90,12 @@ include 'header.php';
 								<li class="active"><i class="fa fa-th"></i></li>
 								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
 							</ul>
+                            </div>
+
+						<div class="row" id="product-row">
+						<div class="col-md-12 col-xs-12" id="product_msg">
+					</div>
+							<div id="get_product">
+						</div>
+							
+						</div>
