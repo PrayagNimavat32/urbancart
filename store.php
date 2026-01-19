@@ -29,3 +29,13 @@ include 'header.php';
             e.stopPropagation();
         };		
     };
+    })(window);
+</script>
+      <div class="main main-raised"> 
+        
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div id="aside" class="col-md-3">
+						<div id="get_category">
+				        </div>
