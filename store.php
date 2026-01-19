@@ -66,3 +66,14 @@ include 'header.php';
 							</div>
 						</div>
 					</div>
+
+                    <div id="store" class="col-md-9">
+						<div class="store-filter clearfix">
+							<div class="store-sort">
+								<label>
+									Sort By:
+									<select class="input-select">
+										<option value="0">Popular</option>
+										<option value="1">Position</option>
+									</select>
+								</label>
