@@ -60,3 +60,25 @@ include "header.php";
 									while($row = mysqli_fetch_assoc($result)) 
 									{
 									echo '
+                                    	
+                                    
+                                
+                                <div class="col-md-5 col-md-push-2">
+                                <div id="product-main-img">
+                                    <div class="product-preview">
+                                        <img src="product_images/'.$row['product_image'].'" alt="">
+                                    </div>
+
+                                    <div class="product-preview">
+                                        <img src="product_images/'.$row['product_image'].'" alt="">
+                                    </div>
+
+                                    <div class="product-preview">
+                                        <img src="product_images/'.$row['product_image'].'" alt="">
+                                    </div>
+
+                                    <div class="product-preview">
+                                        <img src="product_images/'.$row['product_image'].'" alt="">
+                                    </div>
+                                </div>
+                            </div>
