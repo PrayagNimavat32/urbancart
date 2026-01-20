@@ -387,5 +387,19 @@ include "header.php";
 				</div>
 			</div>
 		</div>
+        
+        <div class="section main main-raised">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+                    
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<h3 class="title">Related Products</h3>
+							
+						</div>
+					</div>
+                    ';
 
                             
