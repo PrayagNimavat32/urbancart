@@ -102,3 +102,62 @@ include "header.php";
                                     </div>
                                 </div>
                             </div>
+                            ';
+                                    
+									?>
+									<!-- FlexSlider -->
+									
+									<?php 
+									echo '
+									
+                                    
+                                   
+                    <div class="col-md-5">
+						<div class="product-details">
+							<h2 class="product-name">'.$row['product_title'].'</h2>
+							<div>
+								<div class="product-rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o"></i>
+								</div>
+								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
+							</div>
+							<div>
+								<h3 class="product-price">$'.$row['product_price'].'<del class="product-old-price">$990.00</del></h3>
+								<span class="product-available">In Stock</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+							<div class="product-options">
+								<label>
+									Size
+									<select class="input-select">
+										<option value="0">X</option>
+									</select>
+								</label>
+								<label>
+									Color
+									<select class="input-select">
+										<option value="0">Red</option>
+									</select>
+								</label>
+							</div>
+
+							<div class="add-to-cart">
+								<div class="qty-label">
+									Qty
+									<div class="input-number">
+										
+										<span class="qty-up">+</span>
+										<span class="qty-down">-</span>
+									</div>
+								</div>
+								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
+								<button class="add-to-cart-btn" pid="'.$row['product_id'].'"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                </div>
+								
+								
+							</div>
