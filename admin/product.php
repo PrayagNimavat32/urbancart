@@ -9,3 +9,17 @@ include "header.php";
 				});
 			});
 </script>
+<script>
+    
+    (function (global) {
+	if(typeof (global) === "undefined")
+	{
+		throw new Error("window is undefined");
+	}
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };	
