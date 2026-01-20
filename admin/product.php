@@ -28,3 +28,15 @@ include "header.php";
             global.location.hash = _hash;
         }
     };
+     global.onload = function () {        
+		noBackPlease();
+		document.body.onkeydown = function (e) {
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            e.stopPropagation();
+        };		
+    };
+})(window);
+</script>
