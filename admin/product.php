@@ -40,3 +40,23 @@ include "header.php";
     };
 })(window);
 </script>
+
+<div class="section main main-raised">
+			<div class="container">
+				<div class="row">
+					
+					<?php 
+								include 'db.php';
+								$product_id = $_GET['p'];
+								
+								$sql = " SELECT * FROM products ";
+								$sql = " SELECT * FROM products WHERE product_id = $product_id";
+								if (!$con) {
+									die("Connection failed: " . mysqli_connect_error());
+								}
+								$result = mysqli_query($con, $sql);
+								if (mysqli_num_rows($result) > 0) 
+								{
+									while($row = mysqli_fetch_assoc($result)) 
+									{
+									echo '
