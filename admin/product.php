@@ -387,7 +387,7 @@ include "header.php";
 				</div>
 			</div>
 		</div>
-        
+
         <div class="section main main-raised">
 			<!-- container -->
 			<div class="container">
@@ -401,5 +401,12 @@ include "header.php";
 						</div>
 					</div>
                     ';
+                    $_SESSION['product_id'] = $row['product_id'];
+									}
+								} 
+								?>	
+								<?php
+                    include 'db.php';
+								$product_id = $_GET['p'];
 
                             
