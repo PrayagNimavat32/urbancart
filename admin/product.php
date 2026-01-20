@@ -472,6 +472,6 @@ include "header.php";
 include "newslettter.php";
 include "footer.php";
 
-?>
+
 
                             
